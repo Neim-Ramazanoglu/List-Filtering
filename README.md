@@ -1,5 +1,4 @@
-# Ödev 2
-
+Canlı haline buradaki linkten ulaşabilirsiniz list-filtering.netlify.app
 ## Özet açıklama:
 Hafta 2 Gün 2 örneğindeki filtre özelliğini geliştirmeniz beklenmektedir.
 İlgili repo ve branch'e aşağıdaki link ile ulaşabilirsiniz.
