@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Hafta 2 Gun 2</title>
+    <style>
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="bring">
+            <button id="button1" onclick="fetchData()">Getir</button>
+        </div>
+        
+        <!--Todo-->
+        <div class="container" style="display: none;">
+            <h3>Filtreleme Seçenekleri</h3>
+            <div id="filtreleme">
+                <input type="checkbox" id="yaş">18 Yaş ve Üzeri Kullanıcılar</label><br>
+                <input type="checkbox" id="aktif">Aktif Olan Kullanıcılar</label><br>
+                <input type="text" class="textBox" maxlength="1" id="isim" placeholder="Kullanıcı Adı Baş Harfini Giriniz" size="30rem">
+            </div>
+        </div>
+       
+        <button onclick="filterData()" id="filterButton" style="display: none;">Filtrele</button>
+ 
+       
+        <ul class="list">
+            
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

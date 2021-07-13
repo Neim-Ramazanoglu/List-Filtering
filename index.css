@@ -1,0 +1,47 @@
+body {
+    background-color:rgb(189, 177, 177);
+}
+
+
+
+.textBox {
+    border-radius: 5px;
+}
+
+
+.bring {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+#button1 {
+    font-size: 24px;
+    border-radius: 2px;
+}
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 73%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+    
+    
+}
+
+#filterButton {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
